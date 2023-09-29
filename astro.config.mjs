@@ -8,12 +8,15 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astrofy-template.netlify.app',
+  site: 'https://cv.gtrrzvictor.com',
   integrations: [mdx(), sitemap(), tailwind(), image(
     {
       serviceEntryPoint: '@astrojs/image/sharp',
       cacheDir: "./.cache/image",
       logLevel: 'debug',
     }
-  )]
+  )],
+  experimental: {
+    viewTransitions: true
+  }
 });
