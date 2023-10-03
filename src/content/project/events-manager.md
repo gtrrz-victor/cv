@@ -2,7 +2,7 @@
 title: "EventsManager"
 description: "App to manage all your event's guests"
 pubDate: "Sep 22 2023"
-heroImage: "/post_img.webp"
+heroImage: "/eventsmanager.png"
 ---
 
 This app was created to manage all the people that I invited to a personal event. 
@@ -22,6 +22,7 @@ Infraestructure:
 * API-Rest deployed on AWS API Gateway + lambda to either:
     * upload event photos
     * update assistance
+* Vonage as a SMS provider
 
 
 <a target="_blank" href="https://github.com/gtrrz-victor/eman">Goto Github Project</a>
