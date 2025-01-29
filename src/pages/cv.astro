@@ -37,8 +37,62 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
+      title="Senior Software engineer at Codezero"
+      subtitle="From February 2024 until now at Hobart, Tasmania"
+    >
+      I am one of the three engineers that make up a small startup based in
+      Canada. Since joining the company, I have been involved in:
+      <div class="pl-10">
+        <ul class="list-disc">
+          <li>
+            Automated production/staging cloud deployments using
+            Terraform/Terragrunt
+          </li>
+          <li>
+            Designed and implemented a testing framework to get quick, trusted
+            feedback. This has enabled us to take bigger risks in our decisions
+            and refactors. Testing frameworks used: Bats (automate shell
+            scripting for our cli app) and Playwright (Electron app and web
+            app).
+          </li>
+          <li>
+            Developed low-level services that are running on Windows, macOS,
+            linux (using Golang).
+          </li>
+          <li>
+            DRedesigned the product architecture to enable scalability,
+            resilience to pod failures and shuffling in Kubernetes, elimination
+            of single points of failure, and identification and resolution of
+            bottlenecks.
+          </li>
+          <li>Designed a product strategy based on the company's target.</li>
+          <li>
+            Built our CI pipeline from scratch using GitHub Actions and runners
+            spread across BuildJet, GitHub runners, and Blacksmith runners.
+          </li>
+          <li>Develop from scratch Electron app ( Typescript, React )</li>
+          <li>Develop from scratch VSCode extension</li>
+        </ul>
+      </div>
+      Used Technologies:
+      <div class="md:columns-5 columns-2 mx-6 pl-5">
+        <ul class="list-disc">
+          <li>React</li>
+          <li>Typescript</li>
+          <li>Protobuf</li>
+          <li>ConnectRPC</li>
+          <li>Playwright</li>
+          <li>Golang</li>
+          <li>AWS</li>
+          <li>GKE</li>
+          <li>Terragrunt/Terraform</li>
+          <li>K9s</li>
+        </ul>
+      </div>
+    </TimeLineElement>
+    <TimeLineElement
       title="Senior fullstack engineer at PlanPay"
-      subtitle="From December 2022 until now at Sydney, Australia"
+      subtitle="From August 2021 to September 2023 at Sydney, Australia"
     >
       I am one of the lead engineers of a small team in charge of implementing
       key product features as well as working closely with our product owner to
